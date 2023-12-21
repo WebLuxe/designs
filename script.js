@@ -72,6 +72,10 @@ arrowUp.addEventListener("click", () => {
   document.getElementById("home").scrollIntoView({ behavior: "smooth" });
 });
 
+document.querySelector("#testimonialBtn").addEventListener("click", () => {
+  // Scroll smoothly to the contact section
+  document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
+});
 document.querySelector(".home button").addEventListener("click", () => {
   document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
 });
