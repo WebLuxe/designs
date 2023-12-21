@@ -265,7 +265,7 @@ h3 {
 .testimonial-content p {
   padding-top: 17px;
 }
-.testimonial-content a,
+.testimonial-content button,
 .submit,
 .q-btn,{
   text-decoration: none;
@@ -275,7 +275,6 @@ h3 {
   text-transform: uppercase;
   cursor: pointer;
   font-size: 16px;
-  color: white;
   height: 60px;
   border-radius: 10px;
   background: #dbaa14;
